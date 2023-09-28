@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xmart</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"> Xmart </h1>
+        <Nav class="menu">
+            <ul class="menu-lista">
+                <li><a class="menu-principal menu-principal--atual" href="pagina.html">Home</a></li>
+                <li><a class="menu-principal" href="apresenta.html">Apresentação</a></li>
+                <li><a class="menu-principal" href="curriculo.html">Currículo</a></li>
+            </ul>
+        </Nav>
+    </header>
+        <main class="conteudo">
+            <div>
+                    <h1 class="teste">Teste Pratico</h1>
+                    <h2 class="borda borda--sast">SAST</h2>
+                <p class="paragrafo paragrafo--sast">Static Application Security Testing é uma técnica de teste de segurança de software que envolve analisar o código-fonte e/ou artefatos binários de um aplicativo em busca de vulnerabilidades de segurança. 
+                         Isso é feito sem a necessidade de executar o aplicativo, o que permite identificar possíveis problemas de segurança de forma mais rápida e eficiente.</p>
+                    <h2 class="borda borda--sca">SCA</h2>
+                <p class="paragrafo paragrafo--sca">Software Composition Analysis é uma técnica que examina dependências de software para encontrar vulnerabilidades. Com essa análise, desenvolvedores podem corrigir falhas em bibliotecas de terceiros antes que sejam exploradas por hackers. Isso é crucial, já que muitos aplicativos modernos usam essas bibliotecas e frameworks, que podem conter vulnerabilidades de segurança</p>
+                    <h2 class="borda borda--dast">DAST</h2>
+                <p class="paragrafo paragrafo--dast">Dynamic Application Security Testing é uma técnica que avalia a segurança de aplicações em tempo de execução, simulando ataques reais para identificar vulnerabilidades conhecidas e desconhecidas, oferecendo feedback aos desenvolvedores para que possam corrigir as falhas e fortalecer a segurança das aplicações em ambientes dinâmicos, como interfaces da web, APIs e serviços.</p>
+                    <h2 class="borda borda--iac">IAC</h2>
+                <P class="paragrafo paragrafo--iac">Infrastructure as Code é uma abordagem para gerenciar a infraestrutura de TI usando arquivos de configuração que podem ser versionados, testados e automatizados. Com IaC, toda a infraestrutura é descrita em código, o que permite que os desenvolvedores gerenciem a infraestrutura como gerenciam o código-fonte, garantindo a consistência e a confiabilidade da infraestrutura.</P>
+                <section>
+                    <canvas id="meuGrafico" width="400" height="200"></canvas>
+                    <script src="./JS/script.js"></script>
+                </section>
+            </div>
+        </main>               
+</body>
+</html>
